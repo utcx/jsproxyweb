@@ -13,17 +13,17 @@ jsproxy_config({
   // 节点配置
   node_map: {
     'demo-hk': {
-      label: '演示服务-香港节点',
+      label: '演示服务-节点二',
       lines: {
         // 主机:权重
-        'node-aliyun-hk-1.etherdream.com:8443': 1,
-        'node-aliyun-hk-2.etherdream.com:8443': 2,
+        '127.0.0.1': 1,
+        '127.0.0.1': 2,
       }
     },
     'demo-sg': {
-      label: '演示服务-新加坡节点',
+      label: '演示服务-节点一',
       lines: {
-        'node-aliyun-sg.etherdream.com:8443': 1,
+        '127.0.0.1': 1,
       },
     },
     'mysite': {
